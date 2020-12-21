@@ -1,5 +1,15 @@
 # ArduinoEnvMonitoring
-Arduino based environment monitoring with observer pattern
+Arduino based environment monitoring with observer programming pattern.
+
+## How does it work
+
+Read data from the sensor -> Update the display -> Wait -> Start again
+
+### Okay, but how?
+
+1. Create a subject 
+2. Subscribe to the subject with an observer
+3. Update the subscribers in every cycle
 
 ## Hardware
 
