@@ -1,13 +1,8 @@
-/*
- * Used libraries: https://github.com/mike-matera/ArduinoSTL
- * 
-*/
-
 #include "src/DisplayObserver.h"
 #include "src/TM1637Observer.h"
 #include "src/DHT11Subject.h"
 
-const static uint8_t DHT11_PIN = 5;
+const static uint8_t DHT11_PIN = 5; 
 const static uint8_t TM1637_CLK_PIN  = 4;
 const static uint8_t TM1637_DATA_PIN = 3;
 
